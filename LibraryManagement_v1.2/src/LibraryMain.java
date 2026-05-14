@@ -6,7 +6,6 @@ import java.util.*;
  *
  * @author Su Man Nam
  * @version 1.2
- * <p>2026년 5월 13일 시작</p>
  */
 public class LibraryMain {
     private static LibraryManager manager;
@@ -184,7 +183,7 @@ public class LibraryMain {
 
         switch (choice) {
             case 1 -> {
-                System.out.print("- 새 제목 입력하세요: ");
+                System.out.print("- 새 제목 입력: ");
                 String newTitle = sc.nextLine().trim();
                 if (!newTitle.isEmpty()) {
                     book.setTitle(newTitle);
