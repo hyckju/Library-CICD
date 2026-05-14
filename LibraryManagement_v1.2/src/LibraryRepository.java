@@ -3,10 +3,10 @@ import java.util.*;
 import java.util.List;
 
 public class LibraryRepository {
-    // DB 연결 정보
-    private final String URL = "jdbc:mariadb://192.168.100.20:3306/library";
-    private final String USER = "cjulib";
-    private final String PASSWORD = "security";
+    // DB 연결 정보 (환경변수가 있으면 사용, 없으면 기본값)
+    private final String URL = System.getenv().getOrDefault("DB_URL", "jdbc:mariadb://192.168.100.20:3306/library");
+    private final String USER = System.getenv().getOrDefault("DB_USER", "cjulib");
+    private final String PASSWORD = System.getenv().getOrDefault("DB_PASSWORD", "security");
 
     /**
      * MariaDB 연결을 위한 전용 메소드입니다.

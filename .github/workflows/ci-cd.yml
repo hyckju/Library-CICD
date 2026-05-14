@@ -15,6 +15,28 @@ jobs:
   test:
     name: Build & Test
     runs-on: ubuntu-latest
+
+    services:
+      mariadb:
+        image: mariadb:11
+        env:
+          MARIADB_ROOT_PASSWORD: rootpw
+          MARIADB_DATABASE: library
+          MARIADB_USER: cjulib
+          MARIADB_PASSWORD: security
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="healthcheck.sh --connect --innodb_initialized"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=10
+
+    env:
+      DB_URL: jdbc:mariadb://127.0.0.1:3306/library
+      DB_USER: cjulib
+      DB_PASSWORD: security
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -25,6 +47,11 @@ jobs:
           distribution: temurin
           java-version: '17'
           cache: maven
+
+      - name: Initialize database schema
+        run: |
+          sudo apt-get update && sudo apt-get install -y mariadb-client
+          mariadb -h 127.0.0.1 -P 3306 -u cjulib -psecurity library < ${{ env.WORKING_DIR }}/ci/init.sql
 
       - name: Run tests
         working-directory: ${{ env.WORKING_DIR }}

@@ -1,6 +1,8 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.condition.EnabledOnOs;
+import org.junit.jupiter.api.condition.OS;
 
 import java.io.File;
 import java.util.Collection;
@@ -190,6 +192,7 @@ class LibraryManagerTest {
      * @see <a href="https://github.com/sumannam/Java/issues/43">Issue #43: OS Command Injection 취약점 개발</a>
      */
     @Test
+    @EnabledOnOs(OS.WINDOWS)
     @DisplayName("보안 테스트: OS Command Injection을 통한 임의 파일 생성")
     void osCommandInjectionTest() {
         // Given: 핑 명령어 뒤에 'vuln.txt' 파일을 만드는 명령어를 삽입 (Windows 기준)

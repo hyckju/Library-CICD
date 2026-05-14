@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b889949-b95b-4bb7-be67-f4c824a8c5e3" name="변경" comment="Remove LICENSE and README, simplify input prompt, and update Dockerfile for Maven-based build&#10;CI/CD에 맞게 도커 파일 수정 및 메이븐 추가 워크플로우 작성" />
+    <list default="true" id="5b889949-b95b-4bb7-be67-f4c824a8c5e3" name="변경" comment="Add Maven-based CI/CD workflow and project configuration files">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci-cd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci-cd.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryManagement_v1.2/src/DBconn.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryManagement_v1.2/src/DBconn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryManagement_v1.2/src/LibraryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryManagement_v1.2/src/LibraryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryManagement_v1.2/test/LibraryManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryManagement_v1.2/test/LibraryManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryManagement_v1.2/test/LibraryRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryManagement_v1.2/test/LibraryRepositoryTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1778768553980</updated>
       <workItem from="1778768558159" duration="95000" />
-      <workItem from="1778768719631" duration="1878000" />
+      <workItem from="1778768719631" duration="3255000" />
     </task>
     <task id="LOCAL-00001" summary="Remove LICENSE and README, simplify input prompt, and update Dockerfile for Maven-based build&#10;CI/CD에 맞게 도커 파일 수정 및 메이븐 추가 워크플로우 작성">
       <option name="closed" value="true" />
@@ -89,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778769885342</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Maven-based CI/CD workflow and project configuration files">
+      <option name="closed" value="true" />
+      <created>1778770658967</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1778770658967</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Remove LICENSE and README, simplify input prompt, and update Dockerfile for Maven-based build&#10;CI/CD에 맞게 도커 파일 수정 및 메이븐 추가 워크플로우 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove LICENSE and README, simplify input prompt, and update Dockerfile for Maven-based build&#10;CI/CD에 맞게 도커 파일 수정 및 메이븐 추가 워크플로우 작성" />
+    <MESSAGE value="Add Maven-based CI/CD workflow and project configuration files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Maven-based CI/CD workflow and project configuration files" />
   </component>
 </project>

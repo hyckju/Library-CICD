@@ -6,6 +6,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class LibraryRepositoryTest {
 
+    private static final String DB_URL = System.getenv().getOrDefault("DB_URL", "jdbc:mariadb://192.168.100.20:3306/library");
+    private static final String DB_USER = System.getenv().getOrDefault("DB_USER", "cjulib");
+    private static final String DB_PASSWORD = System.getenv().getOrDefault("DB_PASSWORD", "security");
+
     private LibraryRepository repository;
 
     @BeforeEach
@@ -26,15 +30,15 @@ class LibraryRepositoryTest {
 
         // Repository 내부의 연결 설정을 활용하거나 직접 연결하여 초기화 수행
         // 여기서는 테스트 편의를 위해 직접 연결 예시를 포함합니다.
-        try (Connection conn = DriverManager.getConnection(
-                "jdbc:mariadb://192.168.100.20:3306/library", "cjulib", "security");
+        try (Connection conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
              Statement stmt = conn.createStatement()) {
 
             stmt.executeUpdate(deleteBooks);
             stmt.executeUpdate(deleteUsers);
 
-            // 테스트를 위한 기본 사용자(admin) 추가
+            // 테스트를 위한 기본 사용자(admin, user) 추가
             stmt.executeUpdate("INSERT INTO users (user_id, password, type) VALUES ('admin', '1111', 'ADMIN')");
+            stmt.executeUpdate("INSERT INTO users (user_id, password, type) VALUES ('user', '2222', 'USER')");
 
         } catch (SQLException e) {
             System.err.println("테스트 환경 초기화 실패: " + e.getMessage());

@@ -3,10 +3,10 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBconn {
-    // 연결 정보 설정
-    private static final String URL = "jdbc:mariadb://192.168.100.20:3306/library";
-    private static final String USER = "cjulib";
-    private static final String PASSWORD = "security";
+    // 연결 정보 설정 (환경변수가 있으면 사용, 없으면 기본값)
+    private static final String URL = System.getenv().getOrDefault("DB_URL", "jdbc:mariadb://192.168.100.20:3306/library");
+    private static final String USER = System.getenv().getOrDefault("DB_USER", "cjulib");
+    private static final String PASSWORD = System.getenv().getOrDefault("DB_PASSWORD", "security");
 
     /**
      * 데이터베이스 연결 객체를 반환합니다.
