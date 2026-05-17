@@ -6,7 +6,9 @@
       "Read(//mnt/c/ProgramData/chocolatey/**)",
       "Read(//mnt/c/**)",
       "Bash(export MAVEN_HOME=\"/c/Program Files/JetBrains/IntelliJ IDEA 2025.3.1.1/plugins/maven/lib/maven3\")",
-      "Bash(export PATH=\"$MAVEN_HOME/bin:$PATH\")"
+      "Bash(export PATH=\"$MAVEN_HOME/bin:$PATH\")",
+      "Bash(gh --version)",
+      "Bash(gh auth *)"
     ]
   }
 }
