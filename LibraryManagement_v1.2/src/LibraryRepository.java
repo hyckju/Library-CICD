@@ -1,6 +1,5 @@
 import java.sql.*;
 import java.util.*;
-import java.util.List;
 
 public class LibraryRepository {
     // DB 연결 정보 (환경변수가 있으면 사용, 없으면 기본값)
