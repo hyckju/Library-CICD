@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b889949-b95b-4bb7-be67-f4c824a8c5e3" name="변경" comment="Fix Docker Hub secret variable names in CI/CD workflow configuration" />
+    <list default="true" id="5b889949-b95b-4bb7-be67-f4c824a8c5e3" name="변경" comment="Correct typos in Docker Hub secret variable names in CI/CD workflow">
+      <change beforePath="$PROJECT_DIR$/.claude/settings.local.json" beforeDir="false" afterPath="$PROJECT_DIR$/.claude/settings.local.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci-cd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci-cd.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryManagement_v1.2/src/LibraryMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryManagement_v1.2/src/LibraryMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryManagement_v1.2/src/LibraryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryManagement_v1.2/src/LibraryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryManagement_v1.2/src/LibraryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryManagement_v1.2/src/LibraryRepository.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +39,65 @@
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000001971483" />
+      <entry key="MS500" value="1.0114540371655407" />
+      <entry key="S2" value="1.3271445178637526" />
+      <entry key="S5" value="1.6395814801736828" />
+      <entry key="S10" value="1.8000423686227038" />
+      <entry key="S30" value="2.2187630212132863" />
+      <entry key="S60" value="3.91084268457782" />
+      <entry key="M2" value="7.16113867778032" />
+      <entry key="M5" value="11.381126685737305" />
+      <entry key="M10" value="13.45758728115474" />
+      <entry key="M15" value="14.248484585397927" />
+      <entry key="M30" value="15.094648852863402" />
+      <entry key="H1" value="15.539670317668573" />
+      <entry key="H2" value="15.7678886854323" />
+      <entry key="H4" value="15.883453543374237" />
+      <entry key="D1" value="15.980507066163911" />
+      <entry key="W1" value="15.997213612331713" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="3.4859927015592656E-6" />
+      <entry key="MS500" value="0.0857261270737652" />
+      <entry key="S2" value="0.7957250795727934" />
+      <entry key="S5" value="1.3632044249466813" />
+      <entry key="S10" value="1.6473432554072058" />
+      <entry key="S30" value="2.160405117755979" />
+      <entry key="S60" value="3.8700806070223517" />
+      <entry key="M2" value="7.129561333520567" />
+      <entry key="M5" value="11.36261059990713" />
+      <entry key="M10" value="13.446871003877828" />
+      <entry key="M15" value="14.240969145936159" />
+      <entry key="M30" value="15.090692262660351" />
+      <entry key="H1" value="15.537639672966872" />
+      <entry key="H2" value="15.766859933008178" />
+      <entry key="H4" value="15.88293576592623" />
+      <entry key="D1" value="15.980420293776314" />
+      <entry key="W1" value="15.997201204566403" />
+    </decayedShown>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -67,6 +133,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -75,6 +142,14 @@
     &quot;애플리케이션.LibraryMain.executor&quot;: &quot;Debug&quot;
   }
 }</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
       <changelist id="5b889949-b95b-4bb7-be67-f4c824a8c5e3" name="변경" comment="" />
@@ -84,7 +159,14 @@
       <updated>1778768553980</updated>
       <workItem from="1778768558159" duration="95000" />
       <workItem from="1778768719631" duration="5901000" />
-      <workItem from="1779018993986" duration="2483000" />
+      <workItem from="1779018993986" duration="4009000" />
+      <workItem from="1779023529328" duration="62000" />
+      <workItem from="1779023870804" duration="2060000" />
+      <workItem from="1779026078677" duration="19000" />
+      <workItem from="1779108491045" duration="530000" />
+      <workItem from="1779113618964" duration="866000" />
+      <workItem from="1779239188786" duration="3904000" />
+      <workItem from="1779288394615" duration="1022000" />
     </task>
     <task id="LOCAL-00001" summary="Remove LICENSE and README, simplify input prompt, and update Dockerfile for Maven-based build&#10;CI/CD에 맞게 도커 파일 수정 및 메이븐 추가 워크플로우 작성">
       <option name="closed" value="true" />
@@ -134,7 +216,23 @@
       <option name="project" value="LOCAL" />
       <updated>1779021149364</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fix typo in Docker Hub secret variable names in CI/CD workflow configuration">
+      <option name="closed" value="true" />
+      <created>1779021513467</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1779021513467</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Correct typos in Docker Hub secret variable names in CI/CD workflow">
+      <option name="closed" value="true" />
+      <created>1779021811108</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1779021811108</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +245,8 @@
     <MESSAGE value="Update CI/CD workflow test" />
     <MESSAGE value="Update CI/CD workflow to use Docker Hub, configure JUnit 6 dependencies, and adjust IntelliJ project settings" />
     <MESSAGE value="Fix Docker Hub secret variable names in CI/CD workflow configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix Docker Hub secret variable names in CI/CD workflow configuration" />
+    <MESSAGE value="Fix typo in Docker Hub secret variable names in CI/CD workflow configuration" />
+    <MESSAGE value="Correct typos in Docker Hub secret variable names in CI/CD workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correct typos in Docker Hub secret variable names in CI/CD workflow" />
   </component>
 </project>
