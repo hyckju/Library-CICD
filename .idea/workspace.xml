@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b889949-b95b-4bb7-be67-f4c824a8c5e3" name="변경" comment="Correct typos in Docker Hub secret variable names in CI/CD workflow">
-      <change beforePath="$PROJECT_DIR$/.claude/settings.local.json" beforeDir="false" afterPath="$PROJECT_DIR$/.claude/settings.local.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci-cd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci-cd.yml" afterDir="false" />
+    <list default="true" id="5b889949-b95b-4bb7-be67-f4c824a8c5e3" name="변경" comment="Add CI/CD construction documentation and enhance related configurations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryManagement_v1.2/src/LibraryMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryManagement_v1.2/src/LibraryMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryManagement_v1.2/src/LibraryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryManagement_v1.2/src/LibraryManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryManagement_v1.2/src/LibraryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryManagement_v1.2/src/LibraryRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +161,7 @@
       <workItem from="1779108491045" duration="530000" />
       <workItem from="1779113618964" duration="866000" />
       <workItem from="1779239188786" duration="3904000" />
-      <workItem from="1779288394615" duration="1022000" />
+      <workItem from="1779288394615" duration="1112000" />
     </task>
     <task id="LOCAL-00001" summary="Remove LICENSE and README, simplify input prompt, and update Dockerfile for Maven-based build&#10;CI/CD에 맞게 도커 파일 수정 및 메이븐 추가 워크플로우 작성">
       <option name="closed" value="true" />
@@ -232,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779021811108</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add CI/CD construction documentation and enhance related configurations">
+      <option name="closed" value="true" />
+      <created>1779289428041</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1779289428042</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +250,7 @@
     <MESSAGE value="Fix Docker Hub secret variable names in CI/CD workflow configuration" />
     <MESSAGE value="Fix typo in Docker Hub secret variable names in CI/CD workflow configuration" />
     <MESSAGE value="Correct typos in Docker Hub secret variable names in CI/CD workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correct typos in Docker Hub secret variable names in CI/CD workflow" />
+    <MESSAGE value="Add CI/CD construction documentation and enhance related configurations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add CI/CD construction documentation and enhance related configurations" />
   </component>
 </project>
