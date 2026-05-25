@@ -22,7 +22,7 @@
 단계도 둘로 쪼개서 진행 (한 번에 다 넣지 않음).
 
 ```
-1단계: Build + Test 통과
+1단계: Build + Test 통과아아
   └─ Java 1개 → 검증 → Java 4개 확장
   └─ Python 1개 → 검증 → Python 4개 확장
   └─ JavaScript 1개 → 검증 → JavaScript 4개 확장
