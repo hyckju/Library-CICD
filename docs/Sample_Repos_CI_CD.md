@@ -7,7 +7,7 @@
 
 ---
 
-## 1. 개요 박범서 바보
+## 1. 개요
 
 `LibraryManagement_v1.2` 본 프로젝트에서 검증한 CI/CD 패턴(GitHub Actions → 빌드/테스트 → Docker Hub 푸시)을 **언어별 5개씩 총 15개 샘플 저장소**에 적용하여 범용성을 확인한다.
 
@@ -23,7 +23,7 @@
 단계도 둘로 쪼개서 진행 (한 번에 다 넣지 않음).
 
 ```
-1단계: Build + Testzzzzzzzzzzzzzzzz
+1단계: Build + Test
   └─ Java 1개 → 검증 → Java 4개 확장
   └─ Python 1개 → 검증 → Python 4개 확장
   └─ JavaScript 1개 → 검증 → JavaScript 4개 확장
